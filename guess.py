@@ -48,7 +48,7 @@ st.markdown("<h3 style='text-align:center; color: #3498db;'>I have choosen a num
 
 # User Input
 
-user_guess = st.number_input("Ener your guess :", min_value=20,step=1)
+user_guess = st.number_input("Enter your guess :", min_value=20,step=1)
 
 
 # Button Check .
@@ -72,5 +72,5 @@ if st.button("🔆Restart Game"):
 # Footer
 
 st.write("-------------------------------------")
-st.write("Amzing Gurssing Game enjoy it 🛰")
+st.write("Amzing Guessing Game enjoy it 🚀")
 st.write("© Azeezullah Noohpto")
